@@ -20,33 +20,35 @@ const CustomAppbar_OnbordingScreen ({super.key});
         padding: const EdgeInsets.only(top: 20.0),
         child: Row(
          children: [
-         
-          Expanded(
-            flex: 5,
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                
-                Positioned(
-                  top: 200,
-                  child: IconButton(onPressed: (){}, icon: Icon(Icons.access_alarm))),
-                CustomelevatedButton(
-              ontap: () {
-                // Add your navigation or action code here
-                // Navigator.push(
-                //   context,
-                //   MaterialPageRoute(builder: (context) => NextScreenOne()),
-                //);
-              },
-              btnheight: 20,
-              btnweight: 50,
-              buttonText: 'Skip',
-              TextColour: whiteColor,
-              backgroundColor: blueColor,
-              fontsize: 20,
-            ),
-              ],
-            )),
+        
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              
+              Positioned(
+                top: 200,
+                child: IconButton(onPressed: (){}, icon: Icon(Icons.access_alarm))),
+
+                SizedBox(
+                  width: 200,
+                ),
+              CustomelevatedButton(
+            ontap: () {
+              // Add your navigation or action code here
+              // Navigator.push(
+              //   context,
+              //   MaterialPageRoute(builder: (context) => NextScreenOne()),
+              //);
+            },
+            btnheight: 20,
+            btnweight: 50,
+            buttonText: 'Skip',
+            TextColour: whiteColor,
+            backgroundColor: blueColor,
+            fontsize: 20,
+          ),
+            ],
+          ),
            
          ],
         ),

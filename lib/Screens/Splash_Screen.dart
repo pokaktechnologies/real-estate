@@ -39,7 +39,7 @@ class SplashScreen extends StatelessWidget {
                   
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => OnbordingScreenone()),
+                    MaterialPageRoute(builder: (context) => OnboardingScreen()),
                   );
                 },
                 btnheight: 50,
