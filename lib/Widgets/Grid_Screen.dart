@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
-import 'package:pokak_realeateapp/Screens/Custom_widgets/CustomElevated_Button.dart';
 
-import '../../const/Colors.dart';
+
+import 'package:flutter/material.dart';
+import 'package:pokak_realeateapp/Const/Colors.dart';
 
 class GriddWidget extends StatelessWidget {
   const GriddWidget({Key? key}) : super(key: key);
